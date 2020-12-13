@@ -69,51 +69,51 @@ public class Uninstaller extends Fragment{
             public void onClick(View view) {
                 ClipboardManager clipboard = (ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);
                 if(distro.equals("Ubuntu")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Ubuntu/UNI-ubuntu.sh && bash UNI-ubuntu.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Ubuntu/UNI-ubuntu.sh && bash UNI-ubuntu.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Debian")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Debian/UNI-debian.sh && bash UNI-debian.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Debian/UNI-debian.sh && bash UNI-debian.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Kali")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Kali/UNI-kali.sh && bash UNI-kali.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Kali/UNI-kali.sh && bash UNI-kali.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Nethunter")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Nethunter/UNI-nethunter.sh && bash UNI-nethunter.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Nethunter/UNI-nethunter.sh && bash UNI-nethunter.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Parrot")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Parrot/UNI-parrot.sh && bash UNI-parrot.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Parrot/UNI-parrot.sh && bash UNI-parrot.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("BackBox")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/BackBox/UNI-backbox.sh && bash UNI-backbox.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/BackBox/UNI-backbox.sh && bash UNI-backbox.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Fedora")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Fedora/UNI-fedora.sh && bash UNI-fedora.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Fedora/UNI-fedora.sh && bash UNI-fedora.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("CentOS")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/CentOS/UNI-centos.sh && bash UNI-centos.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/CentOS/UNI-centos.sh && bash UNI-centos.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Leap")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Leap/UNI-opensuse-leap.sh && bash UNI-opensuse-leap.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Leap/UNI-opensuse-leap.sh && bash UNI-opensuse-leap.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Tumbleweed")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Tumbleweed/UNI-opensuse-tumbleweed.sh && bash UNI-opensuse-tumbleweed.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Tumbleweed/UNI-opensuse-tumbleweed.sh && bash UNI-opensuse-tumbleweed.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("openSUSE")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/armhf/UNI-opensuse.sh && bash UNI-opensuse.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/armhf/UNI-opensuse.sh && bash UNI-opensuse.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Arch")){
                     if(s.equals("x86_64")){
-                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Arch/UNI-arch.sh && bash UNI-arch.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Arch/UNI-arch.sh && bash UNI-arch.sh");
                         clipboard.setPrimaryClip(clip);
                     }else{
-                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Arch/UNI-arch.sh && bash UNI-arch.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Arch/UNI-arch.sh && bash UNI-arch.sh");
                         clipboard.setPrimaryClip(clip);
                     }
                 }else if(distro.equals("Alpine")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Alpine/UNI-alpine.sh && bash UNI-alpine.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Alpine/UNI-alpine.sh && bash UNI-alpine.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Void")){
-                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Void/UNI-void.sh && bash UNI-void.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Void/UNI-void.sh && bash UNI-void.sh");
                     clipboard.setPrimaryClip(clip);
                 }
                 Toast.makeText(context, getString(R.string.command_copied), Toast.LENGTH_SHORT).show();
@@ -539,43 +539,43 @@ public class Uninstaller extends Fragment{
                     }
                 }
                 if(distro.equals("Ubuntu")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Ubuntu/UNI-ubuntu.sh && bash UNI-ubuntu.sh", "Ubuntu"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Ubuntu/UNI-ubuntu.sh && bash UNI-ubuntu.sh", "Ubuntu"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Debian")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Debian/UNI-debian.sh && bash UNI-debian.sh", "Debian"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Debian/UNI-debian.sh && bash UNI-debian.sh", "Debian"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Kali")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Kali/UNI-kali.sh && bash UNI-kali.sh", "Kali"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Kali/UNI-kali.sh && bash UNI-kali.sh", "Kali"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Nethunter")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Nethunter/UNI-nethunter.sh && bash UNI-nethunter.sh", "Kali Nethunter"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Nethunter/UNI-nethunter.sh && bash UNI-nethunter.sh", "Kali Nethunter"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Parrot")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Parrot/UNI-parrot.sh && bash UNI-parrot.sh", "Parrot Security OS"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Parrot/UNI-parrot.sh && bash UNI-parrot.sh", "Parrot Security OS"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("BackBox")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/BackBox/UNI-backbox.sh && bash UNI-backbox.sh", "BackBox"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/BackBox/UNI-backbox.sh && bash UNI-backbox.sh", "BackBox"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Fedora")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Fedora/UNI-fedora.sh && bash UNI-fedora.sh", "Fedora"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Fedora/UNI-fedora.sh && bash UNI-fedora.sh", "Fedora"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("CentOS")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/CentOS/UNI-centos.sh && bash UNI-centos.sh", "CentOS"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/CentOS/UNI-centos.sh && bash UNI-centos.sh", "CentOS"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Leap")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Leap/UNI-opensuse-leap.sh && bash UNI-opensuse-leap.sh", "openSUSE Leap"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Leap/UNI-opensuse-leap.sh && bash UNI-opensuse-leap.sh", "openSUSE Leap"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Tumbleweed")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Tumbleweed/UNI-opensuse-tumbleweed.sh && bash UNI-opensuse-tumbleweed.sh", "openSUSE Tumbleweed"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/openSUSE/Tumbleweed/UNI-opensuse-tumbleweed.sh && bash UNI-opensuse-tumbleweed.sh", "openSUSE Tumbleweed"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Arch")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Arch/UNI-arch.sh && bash UNI-arch.sh", "Arch Linux"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Arch/UNI-arch.sh && bash UNI-arch.sh", "Arch Linux"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Alpine")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Alpine/UNI-alpine.sh && bash UNI-alpine.sh", "Alpine"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Alpine/UNI-alpine.sh && bash UNI-alpine.sh", "Alpine"));
                     textView3.setText(R.string.uninstall_step3);
                 }else if(distro.equals("Void")){
-                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Void/UNI-void.sh && bash UNI-void.sh", "Void Linux"));
+                    textView2.setText(getString(R.string.uninstall_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Uninstaller/Void/UNI-void.sh && bash UNI-void.sh", "Void Linux"));
                     textView3.setText(R.string.uninstall_step3);
                 }
                 dialog.dismiss();
