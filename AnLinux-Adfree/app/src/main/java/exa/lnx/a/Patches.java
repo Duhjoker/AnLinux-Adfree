@@ -72,16 +72,16 @@ public class Patches extends Fragment {
                 ClipboardManager clipboard = (ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);
                 if(patches.equals("Ashmem")){
                     if(s.equals("arm64-v8a")){
-                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/aarch64/install-ashmem.sh && bash install-ashmem.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/aarch64/install-ashmem.sh && bash install-ashmem.sh");
                         clipboard.setPrimaryClip(clip);
                     }else if(s.contains("arm")){
-                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/armhf/install-ashmem.sh && bash install-ashmem.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/armhf/install-ashmem.sh && bash install-ashmem.sh");
                         clipboard.setPrimaryClip(clip);
                     }else if(s.equals("x86")){
-                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/i386/install-ashmem.sh && bash install-ashmem.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/i386/install-ashmem.sh && bash install-ashmem.sh");
                         clipboard.setPrimaryClip(clip);
                     }else if(s.equals("x86_64")){
-                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/amd64/install-ashmem.sh && bash install-ashmem.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/amd64/install-ashmem.sh && bash install-ashmem.sh");
                         clipboard.setPrimaryClip(clip);
                     }
                 }else if(patches.equals("SECCOMP")){
@@ -150,19 +150,19 @@ public class Patches extends Fragment {
                 if(patches.equals("Ashmem")){
                     if(s.equals("arm64-v8a")){
                         textView.setText(R.string.ashmem_step1);
-                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/aarch64/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
+                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/aarch64/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
                         textView3.setText(R.string.ashmem_step3);
                     }else if(s.contains("arm")){
                         textView.setText(R.string.ashmem_step1);
-                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/armhf/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
+                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/armhf/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
                         textView3.setText(R.string.ashmem_step3);
                     }else if(s.equals("x86")){
                         textView.setText(R.string.ashmem_step1);
-                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/i386/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
+                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/i386/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
                         textView3.setText(R.string.ashmem_step3);
                     }else if(s.equals("x86_64")){
                         textView.setText(R.string.ashmem_step1);
-                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Library/Ashmem/amd64/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
+                        textView2.setText(getString(R.string.ashmem_step2, "wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Library/Ashmem/amd64/install-ashmem.sh && bash install-ashmem.sh", "ashmem"));
                         textView3.setText(R.string.ashmem_step3);
                     }
                 }else if(patches.equals("SECCOMP")){
