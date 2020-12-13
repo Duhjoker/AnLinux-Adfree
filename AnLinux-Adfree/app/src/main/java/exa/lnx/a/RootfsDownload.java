@@ -22,7 +22,7 @@ public class RootfsDownload extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/EXALAB/AnLinux-Resources/tree/master/Rootfs"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Duhjoker/AnLinux-Resources/tree/master/Rootfs"));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_NEW_DOCUMENT | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                 startActivity(intent);
             }
