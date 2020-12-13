@@ -79,51 +79,51 @@ public class DashBoard extends Fragment {
             public void onClick(View view) {
                 ClipboardManager clipboard = (ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);
                 if(distro.equals("Ubuntu")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Debian")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Kali")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Nethunter")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Parrot")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Parrot/parrot.sh && bash parrot.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Parrot/parrot.sh && bash parrot.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("BackBox")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Fedora")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Fedora/fedora.sh && bash fedora.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Fedora/fedora.sh && bash fedora.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("CentOS")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/CentOS/centos.sh && bash centos.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/CentOS/centos.sh && bash centos.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Leap")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Leap/opensuse-leap.sh && bash opensuse-leap.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/openSUSE/Leap/opensuse-leap.sh && bash opensuse-leap.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Tumbleweed")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Tumbleweed/opensuse-tumbleweed.sh && bash opensuse-tumbleweed.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/openSUSE/Tumbleweed/opensuse-tumbleweed.sh && bash opensuse-tumbleweed.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Arch")){
                     if(s.equals("x86_64")){
-                        ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/amd64/arch.sh && bash arch.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Arch/amd64/arch.sh && bash arch.sh");
                         clipboard.setPrimaryClip(clip);
                     }else{
-                        ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh");
                         clipboard.setPrimaryClip(clip);
                     }
                 }else if(distro.equals("BlackArch")){
                     ClipData clip = ClipData.newPlainText("Command", "pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Alpine")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh");
                     clipboard.setPrimaryClip(clip);
                 }else if(distro.equals("Void")){
-                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Void/void.sh && bash void.sh");
+                    ClipData clip = ClipData.newPlainText("Command", "pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/Duhjoker/AnLinux-Resources/master/Scripts/Installer/Void/void.sh && bash void.sh");
                     clipboard.setPrimaryClip(clip);
                 }
                 Toast.makeText(context, getString(R.string.command_copied), Toast.LENGTH_SHORT).show();
