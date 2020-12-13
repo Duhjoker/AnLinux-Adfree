@@ -80,7 +80,7 @@ public class HeavyDE extends Fragment {
                 ClipboardManager clipboard = (ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);
                 if(desktop.equals("KDE")){
                     if(distro.equals("Ubuntu")){
-                        ClipData clip = ClipData.newPlainText("Command", "wget https://github.com/EXALAB/Anlinux-Resources/raw/master/Scripts/DesktopEnvironment/Heavy/KDE/Ubuntu/de-ubuntu-kde.sh && bash de-ubuntu-kde.sh");
+                        ClipData clip = ClipData.newPlainText("Command", "wget https://github.com/Duhjoker/Anlinux-Resources/raw/master/Scripts/DesktopEnvironment/Heavy/KDE/Ubuntu/de-ubuntu-kde.sh && bash de-ubuntu-kde.sh");
                         clipboard.setPrimaryClip(clip);
                     }
                 }
@@ -169,7 +169,7 @@ public class HeavyDE extends Fragment {
                 }
                 if(desktop.equals("KDE")){
                     if(distro.equals("Ubuntu")){
-                        textView3.setText(getString(R.string.gui_step2, "apt-get update && apt-get install wget -y && wget https://github.com/EXALAB/Anlinux-Resources/raw/master/Scripts/DesktopEnvironment/Heavy/KDE/Ubuntu/de-ubuntu-kde.sh && bash de-ubuntu-kde.sh", "KDE"));
+                        textView3.setText(getString(R.string.gui_step2, "apt-get update && apt-get install wget -y && wget https://github.com/Duhjoker/Anlinux-Resources/raw/master/Scripts/DesktopEnvironment/Heavy/KDE/Ubuntu/de-ubuntu-kde.sh && bash de-ubuntu-kde.sh", "KDE"));
                         textView4.setText(getString(R.string.gui_step3, "./start-ubuntu.sh"));
                     }
                 }
